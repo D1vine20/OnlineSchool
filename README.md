@@ -1,4 +1,4 @@
-# <a href="https://d1vine20.github.io/Sneakers/">Online School</a>
+# <a href="https://d1vine20.github.io/OnlineSchool/">Online School</a>
 - Верстка лендинга онлайн школы ✔ <br>
 - Имееется адаптивное разрешение до 320px ✔ <br>
 - Все изображения расформированы по папкам ✔ <br>
