@@ -1,0 +1,90 @@
+.start {
+   background: linear-gradient(107.56deg, #0075FF 34.96%, rgba(18, 132, 237, 0.8) 100%);
+   padding: 170px 0px 285px 0px;
+   position: relative;
+}
+.start__content {
+   color: #fff;
+
+   .start__title {
+      width: 501px;
+      font-weight: 700;
+      font-size: 50px;
+      line-height: 80%;
+   
+      span {
+         font-size: 32px;
+      }
+   }
+   .start__subtitle {
+      margin-top: 20px;
+      width: 436px;
+      font-size: 18px;
+      line-height: 160%;
+      letter-spacing: 0.06em;
+   }
+   .start__btn {
+      margin-top: 50px;
+      margin-left: 55px;
+
+      a {
+         position: relative;
+         font-weight: 600;
+         font-size: 20px;
+         line-height: 24px;
+         letter-spacing: 0.02em;
+         padding: 18px 19px 18px 62px;
+         background-color: $orange-color;
+         border-radius: 20px;
+         transition: box-shadow 0.3s ease;
+
+         &::before {
+            content: '';
+            position: absolute;
+            display: block;
+            width: 24px;
+            height: 31px;
+            background: url(./../img/start-document.svg) no-repeat;
+            margin: -3px 19px 14px 19px;
+         }
+         &:hover {
+            box-shadow: 0px 0px 20px 4px rgba(255, 255, 255, 0.5);
+            transition: box-shadow 0.3s ease;
+         }
+      }
+   }
+   .start__down {
+      margin-top: 65px;
+      animation: scroll-down 2.5s ease infinite alternate-reverse;
+
+      @keyframes scroll-down {
+         0% {
+            transform: translateY(0%);
+         }
+         50% {
+            transform: translateY(30%);
+         }
+         100% {
+            transform: translateY(30%);
+         }
+      }
+
+      .start__img {
+         margin-left: 156px;
+         transition: 0.3s ease;
+      }
+      .start__text {
+         margin-top: 35px;
+         margin-left: 99px;
+         font-family: 'Bad Script', cursive;
+         font-size: 22px;
+         line-height: 43px;
+         letter-spacing: 0.115em;
+      }
+   }
+}
+.start__fon {
+   position: absolute;
+   top: 145px;
+   right: 280px;
+}

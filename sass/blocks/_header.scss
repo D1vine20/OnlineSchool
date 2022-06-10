@@ -1,0 +1,67 @@
+.header__row {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 25px 0;
+}
+.nav__list {
+   display: flex;
+
+   .nav__item + .nav__item {
+      margin-left: 35px;
+   }
+   .nav__link {
+      line-height: 18px;
+      color: $blue-color;
+   }
+}
+.header__btn {
+   .popup-open {
+      color: $blue-color;
+      font-size: 13px;
+      line-height: 16px;
+      padding: 12px;
+      border: 1px solid $blue-color;
+      border-radius: 20px;
+      transition: 0.3s ease;
+   
+      &:hover {
+         color: #fff;
+         background-color: $blue-color;
+         transition: 0.3s ease;
+      }
+   }
+}
+.header-menu {
+   position: relative;
+   z-index: 999;
+   display: none;
+   justify-content: center;
+   align-items: center;
+}
+.header-menu__icon {
+   display: block;
+   position: relative;
+   width: 15px;
+   height: 1px;
+   background-color: $blue-color;
+
+   &::after, 
+   &::before {
+      position: absolute;
+      content: '';
+      width: 15px;
+      height: 1px;
+      background-color: $blue-color;
+      transition: transform 0.15s ease-in, top 0.15s ease-in 0.15s;
+   }
+   &::before {
+      left: 0;
+      top: -5px;
+   }
+   &::after {
+      left: 0;
+      top: 5px;
+   }
+}
+

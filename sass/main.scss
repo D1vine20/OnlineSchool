@@ -1,0 +1,20 @@
+// base
+@import "./base/reset";
+@import "./base/base";
+@import "./base/vars";
+
+
+// blocks
+@import "./blocks/header";
+@import "./blocks/start";
+@import "./blocks/school";
+@import "./blocks/news";
+@import "./blocks/request";
+@import "./blocks/footer";
+
+// Adaptive
+@import "./blocks/mobile";
+@import "./blocks/media";
+
+// Popup
+@import "./blocks/popup";

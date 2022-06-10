@@ -1,0 +1,101 @@
+.news {
+   margin-top: 150px;
+   text-align: center;
+}
+.news__title {
+   color: #fff;
+   font-weight: 700;
+   font-size: 40px;
+   line-height: 160%;
+   letter-spacing: 0.06em;
+   padding: 40px 130px 59px 130px;
+   background: url(./../img/news-brush.png) no-repeat center;
+}
+.news__row {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 40px;
+}
+.news-block {
+   border: 2px solid $blue-color;
+   border-radius: 0px 0px 24px 24px;
+
+   .news-block__img {
+      border-radius: 0px 0px 25px 24px;
+   }
+   .news-block__title {
+      margin-top: -34px + -18px;
+      color: #fff;
+      font-weight: 500;
+      line-height: 160%;
+      letter-spacing: 0.06em;
+   }
+   .news-block__btn {
+      margin-top: 45px;
+      padding-bottom: 20px;
+   
+      a {
+         color: #fff;
+         font-weight: 700;
+         font-size: 16px;
+         line-height: 160%;
+         padding: 12px;
+         background: linear-gradient(93.15deg, #FFCE20 38.02%, #FFB800 98%);
+         border-radius: 10px;
+         transition: box-shadow 0.3s ease;
+   
+         &:hover {
+            box-shadow: 0px 0px 20px 2px rgba(255, 193, 32, 0.5);
+            transition: box-shadow 0.3s ease;
+         }
+      }
+   }
+}
+.news__socials {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 60px;
+
+   .news__img + .news__img {
+      margin-left: 40px;
+   }
+   .news__img {
+      fill: $blue-color;
+      transition: fill 0.3s ease;
+
+      &:hover {
+         fill: $orange-color;
+         transition: fill 0.3s ease;
+      }
+   }
+   .news__btn {
+      margin: 0 40px;
+   
+      a {
+         color: #fff;
+         font-weight: 700;
+         font-size: 18px;
+         line-height: 160%;
+         letter-spacing: 0.06em;
+         padding: 20px;
+         background: linear-gradient(93.15deg, #FFCE20 38.02%, #FFB800 98%);
+         border-radius: 20px;
+         transition: box-shadow 0.3s ease;
+         
+         &:hover {
+            box-shadow: 0px 0px 20px 4px rgba(255, 193, 32, 0.5);
+            transition: box-shadow 0.3s ease;
+         }
+      }
+   }
+}
+.news__text {
+   margin-top: 37px;
+   color: #00448C;
+   font-style: italic;
+   font-weight: 300;
+   font-size: 18px;
+   line-height: 22px;
+   letter-spacing: 0.2em;
+}
